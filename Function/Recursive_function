@@ -1,0 +1,12 @@
+# function calling itself driectly or indirectly
+
+#direct : Inside
+#def fun():
+    #block of code
+#fun()
+
+# Indirect
+#def fun1()                #def fun2()
+    #block of code              #block of code
+    #fun2()                     fun1()
+#fun1()
